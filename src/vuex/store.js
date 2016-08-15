@@ -1,0 +1,16 @@
+// 
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+//
+import people from './modules/people'
+
+//
+Vue.use(Vuex)
+
+//
+export default new Vuew.Store({
+  modules: {
+    people
+  }
+})
