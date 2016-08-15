@@ -6,13 +6,12 @@
 
 <script>
 import People from './components/People';
+import Store from './vuex/store';
 
 export default {
   data() {
     return {
-      people: [
-        { name: 'CARLOS SKYLWALKER' },
-      ],
+      people: Store,
     };
   },
   components: {

@@ -1,16 +1,16 @@
-// 
-import Vue from 'vue'
-import Vuex from 'vuex'
+//
+import Vue from 'vue';
+import Vuex from 'vuex';
 
 //
-import people from './modules/people'
+import people from './modules/people';
 
 //
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 //
-export default new Vuew.Store({
+export default new Vue.Store({
   modules: {
-    people
-  }
-})
+    people,
+  },
+});

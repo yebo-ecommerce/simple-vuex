@@ -1,15 +1,20 @@
-//
+import Vue from 'vue';
+
 const state = {
   //
-  list: {}
-}
+  list: {},
+};
 
 //
 const mutations = {
-  //
-}
+  GET_PEOPLE() {
+    Vue.http.get('http://swapi.co/api/people/').then(res => {
+      state.list = res;
+    });
+  },
+};
 
 export default {
   state,
-  mutations
-}
+  mutations,
+};
