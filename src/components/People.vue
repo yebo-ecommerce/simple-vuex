@@ -11,9 +11,9 @@
 <script>
 export default {
   props: {
-    people: Array,
-  },
-};
+    people: Array
+  }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
