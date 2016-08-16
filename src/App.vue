@@ -1,4 +1,6 @@
 <template>
+  <people :people="people"></people>
+
   <div id="app">
     <img class="logo" src="./assets/logo.png">
     <hello></hello>
@@ -24,10 +26,25 @@
 
 <script>
 import Hello from './components/Hello'
+import People from './components/People'
+
+import { getPeople } from './vuex/actions'
 
 export default {
+  vuex: {
+    getters: {
+      people: ({ people }) => people.all
+    },
+    actions: {
+      getPeople
+    }
+  },
+  created () {
+    this.getPeople()
+  },
   components: {
-    Hello
+    Hello,
+    People
   }
 }
 </script>
