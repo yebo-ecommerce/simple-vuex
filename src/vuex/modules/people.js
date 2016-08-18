@@ -1,13 +1,24 @@
+// Dependencies
+import { getIdFrom } from './../getters'
+
+//
 const state = {
-  list: {}
+  list: [],
+  species: {}
 }
 
+//
 const mutations = {
+  //
   GET_PEOPLE (state, people) {
-    people.forEach(person => { state.list[person.id] = person })
+    state.list = people.results
+  },
+  GET_SPECIE (state, specie) {
+    specie.results.map(item => { state.species[getIdFrom(item.url)] = item })
   }
 }
 
+//
 export default {
   state,
   mutations
