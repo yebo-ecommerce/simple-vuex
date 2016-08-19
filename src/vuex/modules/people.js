@@ -1,24 +1,18 @@
-// Dependencies
-import { getIdFrom } from './../getters'
-
-//
+// Define the structure of the state
 const state = {
-  list: [],
-  species: {}
+  list: []
 }
 
-//
+// Define te possible mutations on the state
 const mutations = {
   //
   GET_PEOPLE (state, people) {
-    state.list = people.results
-  },
-  GET_SPECIE (state, specie) {
-    specie.results.map(item => { state.species[getIdFrom(item.url)] = item })
+    // Put it into the state
+    state.list = people
   }
 }
 
-//
+// Export everything
 export default {
   state,
   mutations

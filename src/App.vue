@@ -1,28 +1,28 @@
 <template>
-  <people :people="people"></people>
+   <people :people="people" v-show="!loading"></people>
+   <div v-show="loading" class="loader">Loading...</div>
 </template>
 
 <script>
 import People from './components/People'
 
 //
-import { getPeople, getSpecies } from './vuex/actions'
-import { bringSpecie } from './vuex/getters'
+import { getPeople } from './vuex/actions'
 
+// Export the main component
 export default {
   vuex: {
     getters: {
       people: ({ people }) => people.list,
-      bringSpecie
+      loading: ({ people }) => people.list.length === 0
     },
     actions: {
-      getPeople,
-      getSpecies
+      getPeople
     }
   },
   created () {
+    // Execute the action
     this.getPeople()
-    this.getSpecies()
   },
   components: {
     People

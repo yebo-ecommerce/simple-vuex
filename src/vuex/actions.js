@@ -8,13 +8,8 @@ const req = function (path) {
 
 //
 export const getPeople = ({ dispatch }) => {
-  // Request
-  req('people').then(res => {
-    dispatch('GET_PEOPLE', res.data)
+  // Request People
+  req('people').then((res) => {
+    dispatch('GET_PEOPLE', res.data.results)
   })
-}
-
-//
-export const getSpecies = ({ dispatch }) => {
-  req('species').then(res => dispatch('GET_SPECIE', res.data))
 }
