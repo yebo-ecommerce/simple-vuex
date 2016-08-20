@@ -40,7 +40,7 @@ $ docker run -v $(pwd):/usr/src/simple-vuex -w /usr/src/simple-vuex -it --rm -p 
 
 Acesse seu localhost e você devera ver isso
 
-`NÂO PULICAR ISSO <img href="vue-initial-image">`
+<img href="https://raw.githubusercontent.com/yebo-ecommerce/simple-vuex/master/static/image00.png" alt="vue localhost">
 
 Primeiro vamos criar o componente que será responsavel por listar as pessoas
 
