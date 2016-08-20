@@ -13,7 +13,7 @@ EXPOSE 8080
 CMD npm run dev
 ```
 
-### Agora para o processo de build
+Agora para o processo de build
 ```sh
 $ docker build -t simple-vuex .
 $ docker run -v $(pwd):/usr/src/simple-vuex -w /usr/src/simple-vuex -it --rm simple-vuex bash
@@ -38,7 +38,7 @@ $ cd .. && sudo chown -c -R <linux_user>:users ./simple-vuex && cd ./simple-vuex
 $ docker run -v $(pwd):/usr/src/simple-vuex -w /usr/src/simple-vuex -it --rm -p 8080:8080 simple-vuex
 ```
 
-Agora acesse seu localhost e você devera ver isso
+Acesse seu localhost e você devera ver isso
 
 `NÂO PULICAR ISSO <img href="vue-initial-image">`
 
