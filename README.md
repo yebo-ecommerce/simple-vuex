@@ -203,7 +203,6 @@ export default {
 }
 </script>
 ```
-Parabéns, você tem uma listagem de personages de star wars utilizando vuex. 
 
-
-
+Parabéns, você tem uma listagem de personages de star wars utilizando vuex.
+<img href="https://raw.githubusercontent.com/yebo-ecommerce/simple-vuex/master/static/image01.png" alt="lista simples vue">
