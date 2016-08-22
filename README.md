@@ -1,4 +1,4 @@
-# Vue
+# Comsumindo uma Api com Vue Vuex
 
 O Vue por padrão nada mais é que um framework que define componentes utilizado geralmente para montar partes da sua interface. Por este motivo ele integra facilmente com outros frameworks e também com interfaces ja existentes. Por conta deste foco ele é bem leve e esta tendencia de ser nada mais que um componentizador de partes da interface segue para versão 2.0 que ja está na vesão Beta.
 
