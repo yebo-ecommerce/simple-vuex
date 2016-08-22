@@ -40,7 +40,7 @@ $ docker run -v $(pwd):/usr/src/simple-vuex -w /usr/src/simple-vuex -it --rm -p 
 
 Acesse seu localhost e você devera ver isso
 
-<img href="https://raw.githubusercontent.com/yebo-ecommerce/simple-vuex/master/static/image00.png" alt="vue localhost">
+![vue localhost](https://raw.githubusercontent.com/yebo-ecommerce/simple-vuex/master/static/image00.png)
 
 Primeiro vamos criar o componente que será responsavel por listar as pessoas
 
@@ -205,4 +205,5 @@ export default {
 ```
 
 Parabéns, você tem uma listagem de personages de star wars utilizando vuex.
-<img href="https://raw.githubusercontent.com/yebo-ecommerce/simple-vuex/master/static/image01.png" alt="lista simples vue">
+
+![lista simples vuel](https://raw.githubusercontent.com/yebo-ecommerce/simple-vuex/master/static/image01.png)
