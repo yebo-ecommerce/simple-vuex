@@ -1,8 +1,12 @@
 # Comsumindo uma Api com Vue Vuex
 
-O Vue por padrão nada mais é que um framework que define componentes utilizado geralmente para montar partes da sua interface. Por este motivo ele integra facilmente com outros frameworks e também com interfaces ja existentes. Por conta deste foco ele é bem leve e esta tendencia de ser nada mais que um componentizador de partes da interface segue para versão 2.0 que ja está na vesão Beta.
+Consumindo uma Api com Vue Vuex
 
-Neste tutorial, consumiremos uma api, e faremos a listagem de um conteudo, utilizando vuex.
+O Vue nada mais é que um framework que define componentes utilizado geralmente para montar partes de qualquer interface. Por este motivo ele pode ser integrado facilmente com outros frameworks e também com interfaces já existentes.
+
+Estes itens apresentados tornam o Vue, um framework muito leve e dinâmico e isso fica mais do que comprovado na versão 2.0, onde cada vez menos o Vue é apenas um componentizador de interfaces.
+
+Neste tutorial, consumiremos uma api, e faremos a listagem de um conteúdo, utilizando vuex e assim poderemos comprovar o quanto é simples e prático trabalhar com esse framework.
 
 Crie um dockerfile
 `Dockerfile`
